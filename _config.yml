@@ -20,6 +20,14 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
+navbar-extra:
+  - navbar-flag.html
+
+navbar-flag:
+  image: "/assets/img/avatar-icon.png"
+  link: "https://www.github.com"
+  size: "20px"
+
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
