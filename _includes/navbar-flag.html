@@ -1,5 +1,5 @@
 {% if site.navbar-flag %}
-<li class="navlinks-container">
-    <a href="{{ site.navbar-flag.link | absolute_url }}"><img src="{{ site.baseurl }}{{ site.navbar-flag.image | relative_url }}" height="{{ site.navbar-flag.size }}" /></a>
+<li class="nav-item">
+    <a class="nav-link" href="{{ site.navbar-flag.link | absolute_url }}"><img src="{{ site.navbar-flag.image | relative_url }}" height="{{ site.navbar-flag.size }}" /></a>
 </li>
 {% endif %}
